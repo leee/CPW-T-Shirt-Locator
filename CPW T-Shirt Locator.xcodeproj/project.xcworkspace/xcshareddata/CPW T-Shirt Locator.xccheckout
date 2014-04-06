@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>982DCE8A-AD53-4349-A76F-3AFB7E9E3D0F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CPW T-Shirt Locator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>174A9125-A179-41B6-B5F5-797BD653B03D</key>
+		<string>https://github.com/SamirW/CPW-T-Shirt-Locator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CPW T-Shirt Locator.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>174A9125-A179-41B6-B5F5-797BD653B03D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SamirW/CPW-T-Shirt-Locator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>174A9125-A179-41B6-B5F5-797BD653B03D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>174A9125-A179-41B6-B5F5-797BD653B03D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CPW T-Shirt Locator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
