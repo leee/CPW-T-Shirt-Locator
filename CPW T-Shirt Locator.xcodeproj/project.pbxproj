@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		371F532C18F20CC70056D64C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F532B18F20CC70056D64C /* Foundation.framework */; };
-		371F532E18F20CC70056D64C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F532D18F20CC70056D64C /* CoreGraphics.framework */; };
-		371F533018F20CC70056D64C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F532F18F20CC70056D64C /* UIKit.framework */; };
+		3702093218F45A1300B27468 /* popupbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3702093018F45A1300B27468 /* popupbg.png */; };
+		3702093318F45A1300B27468 /* popupbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3702093118F45A1300B27468 /* popupbg@2x.png */; };
+		3719062F18F5377800A6A468 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3719062E18F5377800A6A468 /* Firebase.framework */; };
+		3719063018F537A700A6A468 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F537918F219CE0056D64C /* libicucore.dylib */; };
+		3719063118F537AC00A6A468 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F537718F219B70056D64C /* libc++.dylib */; };
 		371F533618F20CC70056D64C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 371F533418F20CC70056D64C /* InfoPlist.strings */; };
 		371F533818F20CC70056D64C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F533718F20CC70056D64C /* main.m */; };
 		371F533C18F20CC70056D64C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F533B18F20CC70056D64C /* AppDelegate.m */; };
@@ -21,6 +23,50 @@
 		371F534D18F20CC70056D64C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F532F18F20CC70056D64C /* UIKit.framework */; };
 		371F535518F20CC70056D64C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 371F535318F20CC70056D64C /* InfoPlist.strings */; };
 		371F535718F20CC70056D64C /* CPW_T_Shirt_LocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F535618F20CC70056D64C /* CPW_T_Shirt_LocatorTests.m */; };
+		371F536618F2119C0056D64C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 371F536418F2119C0056D64C /* background.png */; };
+		371F536718F2119C0056D64C /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371F536518F2119C0056D64C /* background@2x.png */; };
+		371F536818F214B30056D64C /* NeutraText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 371F536018F20D6B0056D64C /* NeutraText-Bold.ttf */; };
+		371F536918F214B50056D64C /* NeutraText-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 371F536118F20D6B0056D64C /* NeutraText-Book.ttf */; };
+		371F536A18F214B70056D64C /* NeutraText-Demi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 371F536218F20D6B0056D64C /* NeutraText-Demi.ttf */; };
+		371F536B18F214B90056D64C /* NeutraText-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 371F536318F20D6B0056D64C /* NeutraText-Light.ttf */; };
+		371F537D18F21C780056D64C /* SplashPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F537C18F21C780056D64C /* SplashPageViewController.m */; };
+		3734FF5118F6285000531F78 /* Drop.m in Sources */ = {isa = PBXBuildFile; fileRef = 3734FF5018F6285000531F78 /* Drop.m */; };
+		3734FF5618F64C6300531F78 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 3734FF5218F64C6300531F78 /* launch.png */; };
+		3734FF5718F64C6300531F78 /* launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3734FF5318F64C6300531F78 /* launch@2x.png */; };
+		3734FF5818F64C6300531F78 /* launchR4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3734FF5418F64C6300531F78 /* launchR4.png */; };
+		3734FF5918F64C6300531F78 /* launchR4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3734FF5518F64C6300531F78 /* launchR4@2x.png */; };
+		3734FF6018F64E1200531F78 /* logo29.png in Resources */ = {isa = PBXBuildFile; fileRef = 3734FF5A18F64E1200531F78 /* logo29.png */; };
+		3734FF6118F64E1200531F78 /* logo40.png in Resources */ = {isa = PBXBuildFile; fileRef = 3734FF5B18F64E1200531F78 /* logo40.png */; };
+		3734FF6218F64E1200531F78 /* logo29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3734FF5C18F64E1200531F78 /* logo29@2x.png */; };
+		3734FF6318F64E1200531F78 /* logo60.png in Resources */ = {isa = PBXBuildFile; fileRef = 3734FF5D18F64E1200531F78 /* logo60.png */; };
+		3734FF6418F64E1200531F78 /* logo40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3734FF5E18F64E1200531F78 /* logo40@2x.png */; };
+		3734FF6518F64E1200531F78 /* logo60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3734FF5F18F64E1200531F78 /* logo60@2x.png */; };
+		37C1B47518F239C500FA77B0 /* navBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C1B47418F239C500FA77B0 /* navBar@2x.png */; };
+		37C1B47718F23A2100FA77B0 /* navBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C1B47618F23A2100FA77B0 /* navBar.png */; };
+		37C1B47918F24FBB00FA77B0 /* Mapbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37C1B47818F24FBB00FA77B0 /* Mapbox.bundle */; };
+		37C1B47B18F2509F00FA77B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C1B47A18F2509F00FA77B0 /* CoreLocation.framework */; };
+		37C1B47D18F250A900FA77B0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C1B47C18F250A900FA77B0 /* QuartzCore.framework */; };
+		37C1B47F18F250BB00FA77B0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C1B47E18F250BB00FA77B0 /* libsqlite3.dylib */; };
+		37C1B48118F250C500FA77B0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C1B48018F250C500FA77B0 /* libz.dylib */; };
+		37C1B48318F2521D00FA77B0 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C1B48218F2521D00FA77B0 /* Mapbox.framework */; };
+		37C1B48618F25DB700FA77B0 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C1B48518F25DB700FA77B0 /* Location.m */; };
+		37C1B48F18F2A3BA00FA77B0 /* findMeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C1B48D18F2A3BA00FA77B0 /* findMeButton.png */; };
+		37C1B49018F2A3BA00FA77B0 /* findMeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C1B48E18F2A3BA00FA77B0 /* findMeButton@2x.png */; };
+		37C1B49318F2A5AD00FA77B0 /* addButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C1B49118F2A5AD00FA77B0 /* addButton.png */; };
+		37C1B49418F2A5AD00FA77B0 /* addButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C1B49218F2A5AD00FA77B0 /* addButton@2x.png */; };
+		37C1B49718F2B0A300FA77B0 /* listButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C1B49518F2B0A300FA77B0 /* listButton.png */; };
+		37C1B49818F2B0A300FA77B0 /* listButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C1B49618F2B0A300FA77B0 /* listButton@2x.png */; };
+		37C1B49B18F2B64100FA77B0 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C1B49A18F2B64100FA77B0 /* UIImage+ImageEffects.m */; };
+		37DF021418F21E8D00DFA30A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F537418F219770056D64C /* Accounts.framework */; };
+		37DF021518F21E9100DFA30A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F537218F219730056D64C /* Social.framework */; };
+		37DF021618F21E9A00DFA30A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F537018F2196E0056D64C /* CFNetwork.framework */; };
+		37DF021718F21E9F00DFA30A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F536E18F219690056D64C /* Security.framework */; };
+		37DF021818F21EA500DFA30A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F536C18F219640056D64C /* SystemConfiguration.framework */; };
+		37DF021918F21EAA00DFA30A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F532B18F20CC70056D64C /* Foundation.framework */; };
+		37DF021A18F21EB000DFA30A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F532D18F20CC70056D64C /* CoreGraphics.framework */; };
+		37DF021B18F21EB400DFA30A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F532F18F20CC70056D64C /* UIKit.framework */; };
+		37DF021C18F21EB800DFA30A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F534A18F20CC70056D64C /* XCTest.framework */; };
+		37DF021F18F22A1200DFA30A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DF021E18F22A1200DFA30A /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +80,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		371F532818F20CC70056D64C /* CPW T-Shirt Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPW T-Shirt Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3702093018F45A1300B27468 /* popupbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popupbg.png; sourceTree = "<group>"; };
+		3702093118F45A1300B27468 /* popupbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popupbg@2x.png"; sourceTree = "<group>"; };
+		3719062D18F536C700A6A468 /* NSStrinAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStrinAdditions.h; sourceTree = "<group>"; };
+		3719062E18F5377800A6A468 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = "CPW T-Shirt Locator/Firebase.framework"; sourceTree = "<group>"; };
+		371F532818F20CC70056D64C /* CPW 2014.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPW 2014.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		371F532B18F20CC70056D64C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		371F532D18F20CC70056D64C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		371F532F18F20CC70056D64C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -53,6 +103,53 @@
 		371F535218F20CC70056D64C /* CPW T-Shirt LocatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CPW T-Shirt LocatorTests-Info.plist"; sourceTree = "<group>"; };
 		371F535418F20CC70056D64C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		371F535618F20CC70056D64C /* CPW_T_Shirt_LocatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPW_T_Shirt_LocatorTests.m; sourceTree = "<group>"; };
+		371F536018F20D6B0056D64C /* NeutraText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraText-Bold.ttf"; sourceTree = "<group>"; };
+		371F536118F20D6B0056D64C /* NeutraText-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraText-Book.ttf"; sourceTree = "<group>"; };
+		371F536218F20D6B0056D64C /* NeutraText-Demi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraText-Demi.ttf"; sourceTree = "<group>"; };
+		371F536318F20D6B0056D64C /* NeutraText-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraText-Light.ttf"; sourceTree = "<group>"; };
+		371F536418F2119C0056D64C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		371F536518F2119C0056D64C /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		371F536C18F219640056D64C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		371F536E18F219690056D64C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		371F537018F2196E0056D64C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		371F537218F219730056D64C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		371F537418F219770056D64C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		371F537718F219B70056D64C /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		371F537918F219CE0056D64C /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		371F537B18F21C780056D64C /* SplashPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashPageViewController.h; sourceTree = "<group>"; };
+		371F537C18F21C780056D64C /* SplashPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashPageViewController.m; sourceTree = "<group>"; };
+		371F537F18F21DF60056D64C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3734FF4F18F6285000531F78 /* Drop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drop.h; sourceTree = "<group>"; };
+		3734FF5018F6285000531F78 /* Drop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drop.m; sourceTree = "<group>"; };
+		3734FF5218F64C6300531F78 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		3734FF5318F64C6300531F78 /* launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch@2x.png"; sourceTree = "<group>"; };
+		3734FF5418F64C6300531F78 /* launchR4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchR4.png; sourceTree = "<group>"; };
+		3734FF5518F64C6300531F78 /* launchR4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchR4@2x.png"; sourceTree = "<group>"; };
+		3734FF5A18F64E1200531F78 /* logo29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo29.png; sourceTree = "<group>"; };
+		3734FF5B18F64E1200531F78 /* logo40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo40.png; sourceTree = "<group>"; };
+		3734FF5C18F64E1200531F78 /* logo29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo29@2x.png"; sourceTree = "<group>"; };
+		3734FF5D18F64E1200531F78 /* logo60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo60.png; sourceTree = "<group>"; };
+		3734FF5E18F64E1200531F78 /* logo40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo40@2x.png"; sourceTree = "<group>"; };
+		3734FF5F18F64E1200531F78 /* logo60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo60@2x.png"; sourceTree = "<group>"; };
+		37C1B47418F239C500FA77B0 /* navBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBar@2x.png"; sourceTree = "<group>"; };
+		37C1B47618F23A2100FA77B0 /* navBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBar.png; sourceTree = "<group>"; };
+		37C1B47818F24FBB00FA77B0 /* Mapbox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Mapbox.bundle; sourceTree = "<group>"; };
+		37C1B47A18F2509F00FA77B0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		37C1B47C18F250A900FA77B0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		37C1B47E18F250BB00FA77B0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		37C1B48018F250C500FA77B0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		37C1B48218F2521D00FA77B0 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		37C1B48418F25DB700FA77B0 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		37C1B48518F25DB700FA77B0 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		37C1B48D18F2A3BA00FA77B0 /* findMeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = findMeButton.png; sourceTree = "<group>"; };
+		37C1B48E18F2A3BA00FA77B0 /* findMeButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "findMeButton@2x.png"; sourceTree = "<group>"; };
+		37C1B49118F2A5AD00FA77B0 /* addButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addButton.png; sourceTree = "<group>"; };
+		37C1B49218F2A5AD00FA77B0 /* addButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addButton@2x.png"; sourceTree = "<group>"; };
+		37C1B49518F2B0A300FA77B0 /* listButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listButton.png; sourceTree = "<group>"; };
+		37C1B49618F2B0A300FA77B0 /* listButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "listButton@2x.png"; sourceTree = "<group>"; };
+		37C1B49918F2B64100FA77B0 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		37C1B49A18F2B64100FA77B0 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		37DF021E18F22A1200DFA30A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +157,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				371F532E18F20CC70056D64C /* CoreGraphics.framework in Frameworks */,
-				371F533018F20CC70056D64C /* UIKit.framework in Frameworks */,
-				371F532C18F20CC70056D64C /* Foundation.framework in Frameworks */,
+				3719063118F537AC00A6A468 /* libc++.dylib in Frameworks */,
+				3719063018F537A700A6A468 /* libicucore.dylib in Frameworks */,
+				37C1B48118F250C500FA77B0 /* libz.dylib in Frameworks */,
+				37C1B47F18F250BB00FA77B0 /* libsqlite3.dylib in Frameworks */,
+				37C1B47D18F250A900FA77B0 /* QuartzCore.framework in Frameworks */,
+				37C1B47B18F2509F00FA77B0 /* CoreLocation.framework in Frameworks */,
+				37DF021F18F22A1200DFA30A /* MapKit.framework in Frameworks */,
+				37DF021C18F21EB800DFA30A /* XCTest.framework in Frameworks */,
+				37DF021B18F21EB400DFA30A /* UIKit.framework in Frameworks */,
+				37DF021A18F21EB000DFA30A /* CoreGraphics.framework in Frameworks */,
+				37DF021918F21EAA00DFA30A /* Foundation.framework in Frameworks */,
+				37DF021818F21EA500DFA30A /* SystemConfiguration.framework in Frameworks */,
+				37DF021718F21E9F00DFA30A /* Security.framework in Frameworks */,
+				37DF021618F21E9A00DFA30A /* CFNetwork.framework in Frameworks */,
+				37DF021518F21E9100DFA30A /* Social.framework in Frameworks */,
+				37DF021418F21E8D00DFA30A /* Accounts.framework in Frameworks */,
+				37C1B48318F2521D00FA77B0 /* Mapbox.framework in Frameworks */,
+				3719062F18F5377800A6A468 /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +204,7 @@
 		371F532918F20CC70056D64C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				371F532818F20CC70056D64C /* CPW T-Shirt Locator.app */,
+				371F532818F20CC70056D64C /* CPW 2014.app */,
 				371F534918F20CC70056D64C /* CPW T-Shirt LocatorTests.xctest */,
 			);
 			name = Products;
@@ -101,6 +213,21 @@
 		371F532A18F20CC70056D64C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3719062E18F5377800A6A468 /* Firebase.framework */,
+				37C1B48018F250C500FA77B0 /* libz.dylib */,
+				37C1B47E18F250BB00FA77B0 /* libsqlite3.dylib */,
+				37C1B48218F2521D00FA77B0 /* Mapbox.framework */,
+				37C1B47C18F250A900FA77B0 /* QuartzCore.framework */,
+				37C1B47A18F2509F00FA77B0 /* CoreLocation.framework */,
+				37DF021E18F22A1200DFA30A /* MapKit.framework */,
+				371F537F18F21DF60056D64C /* CoreData.framework */,
+				371F537918F219CE0056D64C /* libicucore.dylib */,
+				371F537718F219B70056D64C /* libc++.dylib */,
+				371F537418F219770056D64C /* Accounts.framework */,
+				371F537218F219730056D64C /* Social.framework */,
+				371F537018F2196E0056D64C /* CFNetwork.framework */,
+				371F536E18F219690056D64C /* Security.framework */,
+				371F536C18F219640056D64C /* SystemConfiguration.framework */,
 				371F532B18F20CC70056D64C /* Foundation.framework */,
 				371F532D18F20CC70056D64C /* CoreGraphics.framework */,
 				371F532F18F20CC70056D64C /* UIKit.framework */,
@@ -117,7 +244,20 @@
 				371F533D18F20CC70056D64C /* Main.storyboard */,
 				371F534018F20CC70056D64C /* ViewController.h */,
 				371F534118F20CC70056D64C /* ViewController.m */,
+				371F537B18F21C780056D64C /* SplashPageViewController.h */,
+				371F537C18F21C780056D64C /* SplashPageViewController.m */,
 				371F534318F20CC70056D64C /* Images.xcassets */,
+				3734FF5218F64C6300531F78 /* launch.png */,
+				3734FF5318F64C6300531F78 /* launch@2x.png */,
+				3734FF5418F64C6300531F78 /* launchR4.png */,
+				3734FF5518F64C6300531F78 /* launchR4@2x.png */,
+				3734FF5A18F64E1200531F78 /* logo29.png */,
+				3734FF5B18F64E1200531F78 /* logo40.png */,
+				3734FF5C18F64E1200531F78 /* logo29@2x.png */,
+				3734FF5D18F64E1200531F78 /* logo60.png */,
+				3734FF5E18F64E1200531F78 /* logo40@2x.png */,
+				3734FF5F18F64E1200531F78 /* logo60@2x.png */,
+				37DF021D18F228D100DFA30A /* Resources */,
 				371F533218F20CC70056D64C /* Supporting Files */,
 			);
 			path = "CPW T-Shirt Locator";
@@ -152,6 +292,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		37DF021D18F228D100DFA30A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3734FF4F18F6285000531F78 /* Drop.h */,
+				3734FF5018F6285000531F78 /* Drop.m */,
+				3702093018F45A1300B27468 /* popupbg.png */,
+				3702093118F45A1300B27468 /* popupbg@2x.png */,
+				37C1B49518F2B0A300FA77B0 /* listButton.png */,
+				37C1B49618F2B0A300FA77B0 /* listButton@2x.png */,
+				37C1B49118F2A5AD00FA77B0 /* addButton.png */,
+				37C1B49218F2A5AD00FA77B0 /* addButton@2x.png */,
+				37C1B48D18F2A3BA00FA77B0 /* findMeButton.png */,
+				37C1B48E18F2A3BA00FA77B0 /* findMeButton@2x.png */,
+				37C1B47418F239C500FA77B0 /* navBar@2x.png */,
+				37C1B47618F23A2100FA77B0 /* navBar.png */,
+				371F536418F2119C0056D64C /* background.png */,
+				371F536518F2119C0056D64C /* background@2x.png */,
+				371F536018F20D6B0056D64C /* NeutraText-Bold.ttf */,
+				371F536118F20D6B0056D64C /* NeutraText-Book.ttf */,
+				371F536218F20D6B0056D64C /* NeutraText-Demi.ttf */,
+				371F536318F20D6B0056D64C /* NeutraText-Light.ttf */,
+				3719062D18F536C700A6A468 /* NSStrinAdditions.h */,
+				37C1B48418F25DB700FA77B0 /* Location.h */,
+				37C1B48518F25DB700FA77B0 /* Location.m */,
+				37C1B49918F2B64100FA77B0 /* UIImage+ImageEffects.h */,
+				37C1B49A18F2B64100FA77B0 /* UIImage+ImageEffects.m */,
+				37C1B47818F24FBB00FA77B0 /* Mapbox.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,7 +340,7 @@
 			);
 			name = "CPW T-Shirt Locator";
 			productName = "CPW T-Shirt Locator";
-			productReference = 371F532818F20CC70056D64C /* CPW T-Shirt Locator.app */;
+			productReference = 371F532818F20CC70056D64C /* CPW 2014.app */;
 			productType = "com.apple.product-type.application";
 		};
 		371F534818F20CC70056D64C /* CPW T-Shirt LocatorTests */ = {
@@ -199,6 +370,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Samir Wadhwania";
 				TargetAttributes = {
+					371F532718F20CC70056D64C = {
+						DevelopmentTeam = 3X35UYJS76;
+					};
 					371F534818F20CC70056D64C = {
 						TestTargetID = 371F532718F20CC70056D64C;
 					};
@@ -228,9 +402,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3734FF5618F64C6300531F78 /* launch.png in Resources */,
+				37C1B47918F24FBB00FA77B0 /* Mapbox.bundle in Resources */,
 				371F534418F20CC70056D64C /* Images.xcassets in Resources */,
+				371F536918F214B50056D64C /* NeutraText-Book.ttf in Resources */,
+				371F536B18F214B90056D64C /* NeutraText-Light.ttf in Resources */,
+				3702093218F45A1300B27468 /* popupbg.png in Resources */,
+				37C1B49818F2B0A300FA77B0 /* listButton@2x.png in Resources */,
+				3734FF6018F64E1200531F78 /* logo29.png in Resources */,
+				371F536818F214B30056D64C /* NeutraText-Bold.ttf in Resources */,
+				37C1B48F18F2A3BA00FA77B0 /* findMeButton.png in Resources */,
+				37C1B49418F2A5AD00FA77B0 /* addButton@2x.png in Resources */,
+				371F536618F2119C0056D64C /* background.png in Resources */,
+				37C1B49718F2B0A300FA77B0 /* listButton.png in Resources */,
+				37C1B49318F2A5AD00FA77B0 /* addButton.png in Resources */,
+				3734FF6218F64E1200531F78 /* logo29@2x.png in Resources */,
+				3734FF6418F64E1200531F78 /* logo40@2x.png in Resources */,
+				37C1B47718F23A2100FA77B0 /* navBar.png in Resources */,
+				3734FF6318F64E1200531F78 /* logo60.png in Resources */,
 				371F533618F20CC70056D64C /* InfoPlist.strings in Resources */,
+				3734FF5718F64C6300531F78 /* launch@2x.png in Resources */,
+				371F536718F2119C0056D64C /* background@2x.png in Resources */,
 				371F533F18F20CC70056D64C /* Main.storyboard in Resources */,
+				3702093318F45A1300B27468 /* popupbg@2x.png in Resources */,
+				371F536A18F214B70056D64C /* NeutraText-Demi.ttf in Resources */,
+				3734FF5818F64C6300531F78 /* launchR4.png in Resources */,
+				3734FF5918F64C6300531F78 /* launchR4@2x.png in Resources */,
+				37C1B47518F239C500FA77B0 /* navBar@2x.png in Resources */,
+				3734FF6118F64E1200531F78 /* logo40.png in Resources */,
+				37C1B49018F2A3BA00FA77B0 /* findMeButton@2x.png in Resources */,
+				3734FF6518F64E1200531F78 /* logo60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +450,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371F537D18F21C780056D64C /* SplashPageViewController.m in Sources */,
+				37C1B48618F25DB700FA77B0 /* Location.m in Sources */,
+				37C1B49B18F2B64100FA77B0 /* UIImage+ImageEffects.m in Sources */,
 				371F534218F20CC70056D64C /* ViewController.m in Sources */,
 				371F533C18F20CC70056D64C /* AppDelegate.m in Sources */,
 				371F533818F20CC70056D64C /* main.m in Sources */,
+				3734FF5118F6285000531F78 /* Drop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,10 +581,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CPW",
+					"T-Shirt",
+					Locator,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPW T-Shirt Locator/CPW T-Shirt Locator-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/Mapbox-iOS-SDK\"",
+				);
 				INFOPLIST_FILE = "CPW T-Shirt Locator/CPW T-Shirt Locator-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "CPW 2014";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +613,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CPW",
+					"T-Shirt",
+					Locator,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPW T-Shirt Locator/CPW T-Shirt Locator-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/Mapbox-iOS-SDK\"",
+				);
 				INFOPLIST_FILE = "CPW T-Shirt Locator/CPW T-Shirt Locator-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "CPW 2014";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +699,7 @@
 				371F535C18F20CC70056D64C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		371F535D18F20CC70056D64C /* Build configuration list for PBXNativeTarget "CPW T-Shirt LocatorTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +708,7 @@
 				371F535F18F20CC70056D64C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
